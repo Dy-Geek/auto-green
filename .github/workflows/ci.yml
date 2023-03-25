@@ -1,8 +1,7 @@
+name: ci
+---  
 - name: Checkout
   uses: actions/checkout@v2.7.0
----  
-name: ci
-
 on:
   push:
     branches:
