@@ -1,3 +1,6 @@
+- name: Checkout
+  uses: actions/checkout@v2.7.0
+---  
 name: ci
 
 on:
@@ -22,6 +25,4 @@ jobs:
           git pull --rebase
           git commit --allow-empty -m "a commit a day keeps your girlfriend away"
           git push
----
-- name: Checkout
-  uses: actions/checkout@v2.7.0
+
